@@ -1,0 +1,43 @@
+.btn {
+  @apply rounded-lg px-5 py-2.5;
+
+  &.btn-blue {
+    @apply text-white bg-blue-700 hover:bg-blue-800;
+  }
+
+  &.btn-dark {
+    @apply text-white bg-gray-800 hover:bg-gray-900;
+  }
+
+  &.btn-green {
+    @apply text-white bg-green-700 hover:bg-green-800;
+  }
+
+  &.btn-red {
+    @apply text-white bg-red-700 hover:bg-red-800;
+  }
+
+  &.btn-yellow {
+    @apply text-white bg-yellow-400 hover:bg-yellow-500;
+  }
+
+  &.btn-purple {
+    @apply text-white bg-purple-700 hover:bg-purple-800;
+  }
+
+  &.btn-rounded {
+    @apply rounded-full;
+  }
+
+  &.btn-xs {
+    @apply text-xs;
+  }
+
+  &.btn-sm {
+    @apply text-sm;
+  }
+
+  &.btn-icon {
+    @apply inline-flex items-center gap-2;
+  }
+}

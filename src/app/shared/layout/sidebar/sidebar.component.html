@@ -1,0 +1,40 @@
+<app-card>
+  <card-title>
+    <h5 class="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-white">
+      Navigation
+    </h5>
+    <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Here you can navigate on different pages.</p>
+  </card-title>
+  <card-body>
+    <ul class="mt-4 space-y-3">
+      <li>
+        <a routerLink="/user"
+          class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+          <i class="ri-pie-chart-line ri-lg"></i>
+          <span class="flex-1 ms-3 whitespace-nowrap">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/user/category"
+          class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+          <i class="ri-pages-line ri-lg"></i>
+          <span class="flex-1 ms-3 whitespace-nowrap">Category</span>
+        </a>
+      </li>
+      <li>
+        <a href="#"
+          class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+          <i class="ri-stack-line ri-lg"></i>
+          <span class="flex-1 ms-3 whitespace-nowrap">Product</span>
+        </a>
+      </li>
+      <li>
+        <a href="#"
+          class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+          <i class="ri-settings-line ri-lg"></i>
+          <span class="flex-1 ms-3 whitespace-nowrap">Settings</span>
+        </a>
+      </li>
+    </ul>
+  </card-body>
+</app-card>
